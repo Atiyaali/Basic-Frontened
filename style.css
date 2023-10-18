@@ -1,0 +1,114 @@
+#btn1 {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#btn1:hover {
+  background-color: #555;
+}
+/* Reset some default styles */
+body, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Style the header */
+h2 {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style the container for the input and button */
+#input, #btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* Style the input field */
+#input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Style the "Search" button */
+#btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Center align the buttons */
+#btn1 {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* Style the image container */
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Style individual images within the container */
+#images img {
+    max-width: 100%;
+    height: auto;
+    /* margin: ; */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    #input, #btn {
+        width: 80%;
+    }
+    
+    #btn1 {
+        width: 80%;
+    }
+    
+    #images img {
+        max-width: 100%;
+    }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+    #input, #btn {
+        width: 100%;
+    }
+    
+    #btn1 {
+        width: 100%;
+    }
+    body{
+        width: 100%;
+    }
+}
