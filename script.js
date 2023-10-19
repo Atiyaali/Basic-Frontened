@@ -41,6 +41,14 @@ btn.addEventListener("click",(event)=>{
     searchresult();
   
 })
+input.addEventListener("keydown",(event)=>{
+    if(event.key==="Enter" || event.keycode=== 13){
+        event.preventDefault();
+        page=1;
+        search.innerHTML="";
+        searchresult();
+    }
+})
 
 showmore.addEventListener("click",()=>{
     searchresult();
